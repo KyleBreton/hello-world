@@ -1,4 +1,4 @@
 # hello-world
 Test repo
 
-Changing up the readme to test out the workflow.  Let's make a commit! 
+At the moment this just contains the edge detection module.  But hey it's a start.   
