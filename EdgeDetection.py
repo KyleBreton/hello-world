@@ -229,7 +229,7 @@ def probeScan(isClockwise, pixelArray, startX, startY, prevProbeCoords, stepSize
         prevProbeCoords.append((probe[0], probe[1]))
 
         
-        #Search for nearest high pixel
+        #Search for nearest pixel above draw threshold
         bestDist = None
         for j in range(rpy-searchRadius, rpy+searchRadius+1):
             for i in range(rpx-searchRadius, rpx+searchRadius+1):
